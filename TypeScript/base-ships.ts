@@ -2,7 +2,6 @@ class Spacecraft {
   constructor(public propulsor: string){}
   jumpIntoHyperspace(){
     console.log(`Entering Hyperspace with ${this.propulsor}`)
-
   }
 }
 
